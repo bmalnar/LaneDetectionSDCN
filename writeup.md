@@ -2,7 +2,7 @@
 
 This file contains a written summary of the work performed to develop a processing pipeline for finding lane lines on the road.
 
-### Pipeline description
+## Pipeline description
 
 The main function implementing the processing pipeline is called `process_image`. Please note that the function is used for **both image and video** processing steps. The only difference between image and video processing steps happen in the helper function `hough_lines`, as described later in section 5. 
 
@@ -47,6 +47,6 @@ The method `hough_lines` returns the image that contains up to one line for both
 
 In the final step, we take the image containing the lines from the previous step, and we draw the lines on top of the original image by using a standard OpenCV function. The helper function for this step has not been changed from the original content. The final outcome of this step is the image containing both the original content and the lines. This image can be saved, displayed, etc. 
 
-### Areas for improvement
+## Areas for improvement
 
 It is important to note that the pipeline in its current state works well on all of the images and videos provided with the project assignment, apart from the video in the optional extra challenge section. I wanted to submit the project before tackling this optional challenge, but I will try to continue working on it to develop the pipeline for that challenge as well. 

@@ -4,6 +4,10 @@ Lane detection using OpenCV for Udacity Self Driving Car Nanodegree
 ### Overview
 The repository contains the jupyter notebook implementing the pipeline for detecting lane lines on the road using the pictures and videos provided. The pipeline uses OpenCV functions to detect lines, and some post-processing scripts to ensure that single lines are drawn over the lines or the segments of the lines on each side of the field of view. 
 
+An example picture is shown below. 
+
+<img src="test_images_output/solidYellowCurve2.jpg" width="480" alt="Combined Image" />
+
 ### Files and directories content
 - `P1.ipynb` is a jupyter notebook containing all of the code. The first part works on the pictures, and the second on the videos. 
 - `test_images` and `test_videos` provide input images and videos, respectively, for testing the pipeline
